@@ -32,7 +32,7 @@ public class MortgageCalculator {
         overpaymentSchema.put(28, BigDecimal.valueOf(11000));
         overpaymentSchema.put(64, BigDecimal.valueOf(16000));
         overpaymentSchema.put(78, BigDecimal.valueOf(18000));
-//
+
         InputData defaultInputData = new InputData()
             .withAmount(new BigDecimal("296192.11"))
             .withMonthsDuration(BigDecimal.valueOf(360))
